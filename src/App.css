@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  color: white;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(-45deg, #a33e20, #831640, #0f6f92, #044536);
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.title {
+  text-align: center;
+}
+
+.label {
+  margin: 10px 0;
+}
+
+
+.window {
+  background: rgb(255, 255, 255, 0.2);
+  padding: 1em 3em 0 3em;
+  height: 320px;
+  width: 200px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.window2 {
+  text-align: center;
+}
+
+input {
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+  width: 100%;
+}
+
+button {
+  background-color: rgb(255, 255, 255, 0.4);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  width: 80%;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  color: white;
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.box {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.button2 {
+  width: 90px;
+  margin: 25px 0 10px 0;
+}
+
+.forgot {
+  text-align: center;
+  margin-top: 8px;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 12px;
+}
